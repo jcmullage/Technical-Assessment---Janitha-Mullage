@@ -15,3 +15,9 @@ For execution: -
 Navigate to pom.xml folder
 
 Execute command – mvn test
+
+Test Results:-
+
+Test results should be in under ‘surefire-reports’ folder, index.html format.
+
+..\..\target\surefire-reports\index.html
