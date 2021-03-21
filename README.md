@@ -1,6 +1,7 @@
 # Technical-Assessment---Janitha-Mullage
 
-Pre – condition
+Pre – condition :-
+
 (1)	Java 11 should be installed
 
 (2)	Appropriate ‘Chrome’ driver should be in following location
@@ -10,5 +11,7 @@ Pre – condition
 
 
 For execution: -
+
 Navigate to pom.xml folder
+
 Execute command – mvn test
