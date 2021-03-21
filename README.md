@@ -6,7 +6,7 @@ Pre – condition :-
 
 (2)	Appropriate ‘Chrome’ driver should be in following location
 
-    \..\..\src\test\resources
+    ..\..\src\test\resources
     
 (3)	Maven should need to be in configure in execution computer
 
@@ -21,4 +21,4 @@ Test Results:-
 
 Test results should be in under ‘surefire-reports’ folder, index.html format.
 
-..\..\target\surefire-reports\index.html
+  ..\..\target\surefire-reports\index.html
