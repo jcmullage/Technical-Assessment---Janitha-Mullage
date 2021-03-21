@@ -42,6 +42,11 @@ public class ContactsTest extends BaseTest {
         List<String> expectedErrors = Arrays.asList("Please enter a valid email",
                 "We welcome your feedback - but we won't get it unless you complete the form correctly.");
         assertThat(errors).containsAnyElementsOf(expectedErrors);
+
+        /*This test is designed to fail as I think this is a defect identified by this test
+        1. Name should be validated for characters
+        2. Message should have a reasonable min length */
+
         assertThat(errors.size()).isEqualTo(4); //Alert message and three inline errors expected
     }
 
